@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Images</h2>
+<p>HTML images are defined with the img tag:</p>
+
+<img src="idYO9DXBsb_1769226393602.jpeg"  width="400" height="400">
+
+</body>
+</html>

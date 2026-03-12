@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.love-block-heart{
+    width: 40px;
+    height: 40px;
+    position: absoulte;
+    background:url("heart.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    /*border:1px solid;*/
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+    <div class="love-block-heart"></div>
+</body>
+</html>
