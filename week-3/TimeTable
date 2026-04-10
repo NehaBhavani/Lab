@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TIME TABLE</title>
+</head>
+<style>
+    table, th, td {border: 1px solid black;border-collapse: collapse;}
+</style>
+</head>
+<body>
+<h2>CSE-A TimeTable</h2>
+</body>
+<table style="width: 80%;">
+    <tr>
+        <td colspan="12" >CSE-A Time Table</td>
+    <tr>
+        <td rowspan="2">Time/Day</td>
+        <td>Slot 1</td>
+        <td>Slot 2</td>
+        <td rowspan="2">10:35-10:45</td>
+        <td>Slot 3</td>
+        <td>Slot 4</td>
+        <td>Slot 5</td>
+        <td rowspan="2">01.15-02.05</td>
+        <td>Slot 6</td>
+        <td rowspan="2">3.00-3.10</td>
+        <td>Slot 7</td>
+        <td>Slot 8</td>
+    </tr>
+    <tr>
+        <td>08.55-09.45</td>
+        <td>09.45-10.35</td>
+        <td>10.45-11.35</td>
+        <td>11.35-12.25</td>
+        <td>12.25-01.15</td>
+        <td>02.10-03.00</td>
+        <td>03.10-04.00</td>
+        <td>04.00-04.45</td>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>23CSE111 Object Oriented Programming</td>
+        <td>23CSE113 User Interface Design</td>
+        <td rowspan="5" style="background-color: yellow" class="vertical">Short Break</td>
+        <td colspan="2" style="background-color: lightskyblue;">23MAT116 Discreate Mathematics Lab</td>
+        <td>Library</td>
+        <td rowspan="5" style="background: yellow;"class="vertical">Lunch Break</td>
+        <td>Library</td>
+        <td rowspan="5" style="background-color:  yellow;" class="vertical">Short Break</td>
+        <td colspan="2">Library/Sports</td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td colspan="2" style="background-color: aqua;">23CSE111 Object Oriented Programming Lab</td>
+        <td>23MAT116 Discreate Mathematics</td>
+        <td colspan="2" style="background-color:hotpink;">23MAT117 Linear Algrbra_LAb</td>
+        <td>Library</td>
+        <td colspan="2">22ADM111 Glimpses of Glorious India</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>23PHY115 Modern Physics</td>
+        <td>23MAT117 Linear Algrbra</td>
+        <td>Library</td>
+        <td>23PHY115 Modern Physics</td>
+        <td>23CSE111 Object Oriented Programming</td>
+        <td style="background-color: chartreuse;">23Manufacturing Practice Lab</td>
+        <td colspan="2" style="background-color: chartreuse;">23Manufacturing Practice Lab</td>       
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td>23CSE113 User Interface Design</td>
+        <td>23MAT117 Linear Algrbra</td>
+        <td colspan="2" style="background-color:violet">23CSE113 User Interface Design Lab</td>
+        <td>23MAT116 Discreate Mathematics</td>
+        <td style="color: red;">Counselling</td>
+        <td colspan="2">Library/Sports</td>
+    </tr>
+    <tr>
+        <td>Friday</td>
+        <td>23MAT117 Linear Algrbra</td>
+        <td>23PHY Modern Physics</td>
+        <td>23CSE111 Object Oriented Programming</td>
+        <td>23MAT116 Discreate Mathematics</td>
+        <td style="color: red;">Counselling</td>
+        <td>22ADM111 Glimpses of Glorious India</td>
+        <td colspan="2">Libray/Sports</td>
+    </tr>
+    <tr>
+        <td>Course Code</td>
+        <td colspan="3">Course Name</td>
+        <td>L-T-P</td>
+        <td>Credits</td>
+        <td colspan="3">Faculty Name</td>
+        <td colspan="3">Assisting Faculty</td>
+    </tr>
+    <tr>
+        <td>23MAT116</td>
+        <td colspan="3">Discrete Mathematics</td>
+        <td>3-0-2 </td>
+        <td>4</td>
+        <td colspan="3">Dr.Ram Pratap Chauhan</td>
+        <td colspan="3">-</td>
+    </tr>
+    <tr>
+        <td>23MAT117</td>
+        <td colspan="3">Linear Algebra</td>
+        <td>3-0-2 </td>
+        <td>4</td> 
+        <td colspan="3">Dr.Rashmi Prasad</td>
+        <td colspan="3">-</td>
+    </tr>
+    <tr>
+        <td>23CSE111</td>
+        <td colspan="3">Object Oriented Programming</td>
+        <td>3-0-2 </td>
+        <td>4</td>
+        <td colspan="3">Dr. Balaji TK</td>
+        <td colspan="3">Dr. Satya Rajendra Singh</td>
+    </tr>
+        <tr>
+            <td>23PHY115</td>
+            <td colspan="3">Modern Physics</td>
+            <td>2-1-0</td>
+            <td>3</td>
+            <td colspan="3">Dr. C R Kesavalu</td>
+            <td colspan="3">-</td>
+        </tr>
+        <tr>
+            <td>23CSE113</td>
+            <td colspan="3">User Interface Design</td>
+            <td>2-0-2</td>
+            <td>3</td>
+            <td colspan="3">Dr.Rajkumar Batchu</td>
+            <td colspan="3">Mr. Barge Bharadwaj</td>
+        </tr>
+        <tr>
+            <td>23MEE115</td>
+            <td colspan="3">Manufacturing Practice</td>
+            <td>0-0-3</td>
+            <td>1</td>
+            <td colspan="3">Dr. Sathies S.</td>
+            <td colspan="3">-</td>
+        </tr>
+        <tr>
+            <td>22ADM111</td>
+            <td colspan="3">Glimpses of Glorious India</td>
+            <td>2-0-1</td>
+            <td>2</td>
+            <td colspan="3">Dr. Siva Panuganti</td>
+            <td colspan="3">-</td>
+        </tr>
+   
+</table>
+</html>
