@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Menu</title>
+
+<style>
+body{background:black;color:white;font-family:Arial;margin:0;}
+.menu-title{background:Yellow; color:black; text-align:center;width:260px;margin:20px auto;padding:10px;border-radius:25px;font-weight:bold;}
+.breakfast{color:skyblue;}
+.Biriyani{color:gold;}
+.nonveg{color:red;}
+.veg{color:lightgreen;}
+.desserts{color:deeppink;}
+
+table{width:100%;border-collapse:collapse;}
+td{ width:50%; vertical-align:top;padding:30px;}
+.inner td{padding:0 10px;}
+.line{border-left:2px solid white;}
+img{width:180px;}
+p{margin:6px 0;}
+</style>
+</head>
+
+<body>
+
+<h1 class="menu-title">FOOD MENU</h1>
+
+<!-- ROW 1 -->
+<table>
+<tr>
+
+<td>
+<h2 class="breakfast">Breakfast</h2>
+<table class="inner">
+<tr>
+<td class="line">
+<p>Idli - 15/-</p>
+<p>Dosa - 50/-</p>
+<p>Vada - 20/-</p>
+
+
+
+
+
+pp;
+<p>Roti - 20/-</p>
+<p>Chole bhature -50/-<p>
+<p>Upma - 30/-</p>
+</td>
+<td><img src="breakfast.jpg.png"></td>
+</tr>
+</table>
+</td>
+
+<td>
+<h2 class="Biriyani">Biriyani's</h2>
+<table class="inner">
+<tr>
+<td class="line">
+<p>Chicken Biriyani - 160/-</p>
+<p>Chicken Fry Biriyani - 170/-</p>
+<p>Panner Biriyani- 190/-</p>
+<p>Chicken Tikka Biriyani - 180/-</p>
+<p>Chicken 65 Biriyani - 210/-</p>
+<p>Kaju Biriyani - 180/-</p>
+<p>Mushroom Biriyani - 170/-</p>
+</td>
+<td><img src="biriyani.jpg.png"></td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<!-- ROW 2 -->
+<table>
+<tr>
+
+<td>
+<h2 class="nonveg">Non Veg</h2>
+<table class="inner">
+<tr>
+<td class="line">
+<p>Chicken Fry - 160/-</p>
+<p>Chilli Chicken - 150/-</p>
+<p>Chicken Lollipop - 180/-</p>
+<p>Butter Chicken - 160/-</p>
+<p>Chicken 65 -160/-</p>
+</td>
+<td><img src="nonveg.jpg.png"></td>
+</tr>
+</table>
+</td>
+
+<td>
+<h2 class="veg">Veg</h2>
+<table class="inner">
+<tr>
+<td class="line">
+<p>Gobi Manchurian - 90/-</p>
+<p>Gobi Chilli - 110/-</p>
+<p>Mushroom Chilli - 150/-</p>
+<p>Veg Majestic - 60/-</p>
+<p>Paneer Manchurian -160/-</p>
+<p>Paneer 65 -150/-</p>
+</td>
+<td><img src="veg.jpg.png"></td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<!-- ROW 3 -->
+<table>
+<tr>
+<td>
+<h2 class="desserts">Desserts</h2>
+<table class="inner">
+<tr>
+<td class="line">
+<p>Gulab Jamun - 100/-</p>
+<p>Rasgulla - 150/-</p>
+<p>Carrot Halwa - 150/-</p>
+<p>Apricot delight - 160/-</p>
+<p>Vanilla Icecream -100/-</p>
+<p>Chocolate Icecream -100/-</p>
+<p>Strawberry Icecream -120/-</p>
+</td>
+<td><img src="desserts.jpg.png"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
