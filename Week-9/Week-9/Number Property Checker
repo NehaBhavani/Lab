@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Property Checker</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6dd5ed, #2193b0);
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 400px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 10px;
+            width: 80%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 8px;
+            background: #2193b0;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #17687a;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #333;
+            padding: 10px;
+            border-radius: 8px;
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Number Property Checker</h2>
+
+    <input type="number" id="num" placeholder="Enter a number">
+
+    <br>
+
+    <button onclick="checkEven()">Even</button>
+    <button onclick="checkOdd()">Odd</button>
+    <button onclick="checkPrime()">Prime</button>
+    <button onclick="findFactorial()">Factorial</button>
+    <button onclick="checkArmstrong()">Armstrong</button>
+
+    <div id="output"></div>
+</div>
+
+<script>
+    function getNumber() {
+        return parseInt(document.getElementById("num").value);
+    }
+
+    function checkEven() {
+        let n = getNumber();
+        let result = (n % 2 === 0) ? "Even Number" : "Not Even Number";
+        document.getElementById("output").innerText = result;
+    }
+
+    function checkOdd() {
+        let n = getNumber();
+        let result = (n % 2 !== 0) ? "Odd Number" : "Not Odd Number";
+        document.getElementById("output").innerText = result;
+    }
+
+    function checkPrime() {
+        let n = getNumber();
+        if (n <= 1) {
+            document.getElementById("output").innerText = "Not a Prime Number";
+            return;
+        }
+        let isPrime = true;
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        document.getElementById("output").innerText = 
+            isPrime ? "Prime Number" : "Not a Prime Number";
+    }
+
+    function findFactorial() {
+        let n = getNumber();
+        let fact = 1;
+        for (let i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        document.getElementById("output").innerText = 
+            "Factorial = " + fact;
+    }
+
+    function checkArmstrong() {
+        let n = getNumber();
+        let sum = 0;
+        let temp = n;
+        let digits = n.toString().length;
+
+        while (temp > 0) {
+            let digit = temp % 10;
+            sum += Math.pow(digit, digits);
+            temp = Math.floor(temp / 10);
+        }
+
+        let result = (sum === n) ? "Armstrong Number" : "Not an Armstrong Number";
+        document.getElementById("output").innerText = result;
+    }
+</script>
+
+</body>
+</html>
